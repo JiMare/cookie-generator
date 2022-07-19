@@ -30,7 +30,7 @@ Uloziste
 
 # Test report
 
-**testovací scénář 1:** krok 1) na zařízení A navštivte adresu s běžící aplikací/
+**testovací scénář 1:** krok 1) na zařízení A navštivte adresu s běžící aplikací\
                         krok 2) ověřte v DevTools, že byla vytvořena cookie name uuid s vygenerovaným uuid/
                         výsledek: **pass**
 
