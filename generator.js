@@ -17,6 +17,6 @@ export class Generator {
   createCookie() {
     const CookieDate = new Date();
     CookieDate.setFullYear(CookieDate.getFullYear() + 1);
-    document.cookie = `uuid=${getUuid()}; expires=${CookieDate.toGMTString()}; Domain=${this.getDomain()} path=/`;
+    document.cookie = `uuid=${getUuid()}; expires=${CookieDate.toGMTString()}; path=/`;
   }
 }
