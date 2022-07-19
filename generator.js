@@ -1,4 +1,4 @@
-import { getUuid } from "./uuid.js";
+import { getCookie, getUuid } from "./utils.js";
 
 export class Generator {
   constructor() {
@@ -9,8 +9,10 @@ export class Generator {
   }
 
   createCookie() {
-    const CookieDate = new Date();
-    CookieDate.setFullYear(CookieDate.getFullYear() + 1);
-    document.cookie = `uuid=${getUuid()}; expires=${CookieDate.toGMTString()}; path=/`;
+    if (!getCookie("uuid")) {
+      const CookieDate = new Date();
+      CookieDate.setFullYear(CookieDate.getFullYear() + 1);
+      document.cookie = `uuid=${getUuid()}; expires=${CookieDate.toGMTString()}; path=/`;
+    }
   }
 }
