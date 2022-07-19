@@ -30,17 +30,20 @@ Uloziste
 
 # Test report
 
-**testovací scénář 1:** - krok 1) na zařízení A navštivte adresu s běžící aplikací
-                        - krok 2) ověřte v DevTools, že byla vytvořena cookie name uuid s vygenerovaným uuid\
+**testovací scénář 1:** 
+- krok 1) na zařízení A navštivte adresu s běžící aplikací
+- krok 2) ověřte v DevTools, že byla vytvořena cookie name uuid s vygenerovaným uuid\
                         výsledek: **pass**
 
-**testovací scénář 2:** - krok 1) zapiště si hodnotu cookie z testovacího scénaře 1
-                        - krok 2) na zařízení A navštivte opětovně adresu s běžící aplikací
-                        - krok 3) ověřte v DevTools, že nebyla vytvořena nová cookie name uuid s vygenerovaným uuid, ale hodnota se nezměnila\
+**testovací scénář 2:**
+- krok 1) zapiště si hodnotu cookie z testovacího scénaře 1
+- krok 2) na zařízení A navštivte opětovně adresu s běžící aplikací
+- krok 3) ověřte v DevTools, že nebyla vytvořena nová cookie name uuid s vygenerovaným uuid, ale hodnota se nezměnila\
                         výsledek: **pass**   
 
-**testovací scénář 2:** - krok 1) zapiště si hodnotu cookie z testovacího scénaře 1
-                        - krok 2) na zařízení B navštivte adresu s běžící aplikací
-                        - krok 3) ověřte v DevTools, že byla vytvořena nová cookie name uuid s vygenerovaným uuid, jajíž hodnota se neshoduje s hodnotou cookie zapsanou v kroku 1\
-                        výsledek: **pass** 
+**testovací scénář 2:** 
+- krok 1) zapiště si hodnotu cookie z testovacího scénaře 1
+- krok 2) na zařízení B navštivte adresu s běžící aplikací
+- krok 3) ověřte v DevTools, že byla vytvořena nová cookie name uuid s vygenerovaným uuid, jajíž hodnota se neshoduje s hodnotou cookie zapsanou v kroku 1\
+výsledek: **pass** 
 
