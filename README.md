@@ -44,6 +44,6 @@ Uloziste
 **testovací scénář 2:** 
 - krok 1) zapiště si hodnotu cookie z testovacího scénaře 1
 - krok 2) na zařízení B navštivte adresu s běžící aplikací
-- krok 3) ověřte v DevTools, že byla vytvořena nová cookie name uuid s vygenerovaným uuid, jajíž hodnota se neshoduje s hodnotou cookie zapsanou v kroku 1\
+- krok 3) ověřte v DevTools, že byla vytvořena nová cookie name uuid s vygenerovaným uuid, jejíž hodnota se neshoduje s hodnotou cookie zapsanou v kroku 1\
 výsledek: **pass** 
 
