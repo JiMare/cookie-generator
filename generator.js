@@ -8,12 +8,6 @@ export class Generator {
     Generator.instance = this;
   }
 
-  getDomain() {
-    const url = window.location.href;
-    const domain = new URL(url).hostname;
-    return domain;
-  }
-
   createCookie() {
     const CookieDate = new Date();
     CookieDate.setFullYear(CookieDate.getFullYear() + 1);
